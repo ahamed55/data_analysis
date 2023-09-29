@@ -1,3 +1,5 @@
+install.packages("palmerpenguins")
+library(ggplot2)
 data("penguins")
 
 ggplot(data = penguins) +
@@ -5,7 +7,7 @@ ggplot(data = penguins) +
   #geom_smooth(mapping = (aes(x= flipper_length_mm , y = body_mass_g,linetype = species)))
 
 
-hotel_bookings <- read.csv("C:/Users/ibrah/Downloads/hotel_bookings (2).csv")
+hotel_bookings <- read.csv("D:/coursera data_analytics/Data VIZ/hotel_bookings (2).csv")
 View(hotel_bookings)
 
 ggplot(data = hotel_bookings) +
